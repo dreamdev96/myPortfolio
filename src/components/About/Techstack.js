@@ -1,35 +1,48 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  SiTypescript,
+  SiIpfs,
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiRust,
+  SiExpress,
+  SiChainlink,
+  SiNpm,
+  SiYarn,
+  SiOpenai,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {
+  FaHardHat,
+  FaEthereum,
+  FaGitAlt,
+} from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSolidity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRust />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,31 +51,40 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiChainlink />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiNpm />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiYarn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaHardHat />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaEthereum />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGitAlt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiIpfs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiOpenai />
       </Col>
     </Row>
   );

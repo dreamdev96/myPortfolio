@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import onlineshop from "../../Assets/Projects/onlineshop.png";
+import defiBank from "../../Assets/Projects/DefiBank.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={defiBank}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="DefiBank"
+              description="DefiBank Dapp is created for Ethereum 101 course of cadena.dev with Next.js amd ThirdWeb3Provider. This DApp supports various chains and wallets. Implement deposite and withdraw functionality."
+              ghLink="https://github.com/dreamdev96/DefiBank"
+              demoLink="https://defi-bank-seven.vercel.app/"
             />
           </Col>
 
@@ -45,12 +45,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={onlineshop}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="OnlineShope"
+              description="Online shope build with react.js and Rest API. Online shop called 'sam's accurium' is a platform to buy and sells goods online. Implement the payment using Stipe and RestAPI and build the optimized admin dashbord."
+              ghLink="https://github.com/dreamdev96/accurium-eCommerce"
+              demoLink="https://accurium-e-commerce.vercel.app/"              
             />
           </Col>
 
